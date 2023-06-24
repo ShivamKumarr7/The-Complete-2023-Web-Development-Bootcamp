@@ -1,0 +1,70 @@
+
+
+Q1) What is a NETWORK ?
+Ans --> A Network is a system of connected devices/computers.
+        Network can exist at various levels :-
+        i) Lets say, in a room we have a laptop,a PC,a router and a phone and they are connected with each other. This forms a Network and this type of 
+           network is called LAN.(LOCAL AREA NETWORK)
+        ii) Similarly,we can have various cities connected with each other lets say Delhi-Punjab-Chandigarh etc....This type of Network is called MAN.
+            (Metropolitian Area Network).
+        iii) Similarly,when countries are connected with each other then at that level it is called as WAN(Wide Area Network).
+
+       Also,a network can be wired or wireless.
+
+
+Q2) What is Internet ? 
+Ans --> Internet comes from two different words --> Interconnected and Networks.
+        It is a global system under which millions of devices are connected with each other.
+        It is also commonly called as Network of Networks.
+
+        Millions of LAN,MAN,WAN together form a global system of network that is called as Internet.
+
+
+Q3) What is Web ?
+Ans --> Web is also known as WWW.
+        WWW stands for World Wide Web.
+        World Wide Web is a subset of Internet.
+        It is a system where interconnected documents and resources exist.
+        We can use WEB using a WEB BROWSER AND INTERNET.
+
+
+Q4) What is IP Address ?
+Ans --> IP Address stand for Internet Protocol Address.
+        Every device on a network has a unique IP address. And this helps to uniquely identify that device.
+
+
+Q5) What is a Browser ?
+Ans --> A browser is a tool and software which helps us to access the world wide web.
+        Ex-> Google Chrome,Mozilla Firefox,Opera,Safari etc
+
+
+Q6) What is a Browser Enginer ?
+Ans --> It is the underlying brain of the browser.
+
+
+Q7) Explain Client Server Model ?
+Ans --> Client is any device that makes a request.It can be a PC or a Browser or a CLI anything. The client makes a request, this request can be of the 
+        following types i) GET ii) PUT iii) POST iv) DELETE. 
+        Server is the device that gives back the response after processing.
+
+
+Q8) What is a Protocol Stack ?
+Ans --> Protocols are a set of rules and regulations that has to be followed.
+
+        Application Layer --> it is specific to the application 
+        TCP Layer --> It assign or tells us about the port number.
+        IP Layer --> It gives us the IP address of the destination system.
+        Then it goes through either the wired or wireless medium and reaches the destination system.
+
+
+Q9) How INTERNET WORKS ?
+Ans --> So,lets assume I'm using my laptop and my laptop is connected to the router. Whenever I open the brower and lets say I write google.com 
+        the browser first convers this domain name to an IP address and this process is known as DNS resolution.Domain Name System Servers help us to 
+        find the exact and correct IP address for a domain name. After this out request goes through different routers and finally reaches our
+        Local Internet Service Provider (Local ISP), if our local ISP knows about this IP address it will route us to that address using some routers.But in 
+        case it does not know about the IP address it will move this request to its parent router that is Regional Internet Service Provider. There again
+        it matches our IP address in the routing table and if found it will route us to the desired location.But if not then it will forward the request to
+        its parent router that is National Internet Service Provider and then It will finally route us to the desired IP address.
+
+        Upon reaching there, the google servers will process the request and then send back the response.Again it will travel with the help of routers and 
+        finally reach our browser.Upon reaching our browser assembles everything and then renders it with the help of HTML,CSS and Javascript.
